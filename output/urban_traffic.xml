@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-26 04:16:16 by Eclipse SUMO sumo Version 1.23.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../urban/urban.net.xml"/>
+        <route-files value="../urban/morning_peak.trips.xml,../urban/evening_peak.trips.xml,../urban/urban.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="../urban/../output/urban_traffic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="56684"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="0" x="2857.00" y="1969.59" angle="32.91" type="DEFAULT_VEHTYPE" speed="0.00" pos="5.10" lane="190041736#3_0" slope="0.00"/>
+    </timestep>
+</fcd-export>
