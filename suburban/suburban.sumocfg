@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="suburban.net.xml"/>
+        <!-- Load ALL route files in correct order -->
+        <route-files value="morning_peak.trips.xml,evening_peak.trips.xml,suburban.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="86400"/> <!-- 24-hour simulation -->
+    </time>
+    <gui_only>
+        <start value="true"/> <!-- Force GUI start -->
+    </gui_only>
+</configuration>
