@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="urban.net.xml"/>
+        <route-files value="morning_peak.trips.xml,evening_peak.trips.xml,urban.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <output>
+    <fcd-output value="output/urban_rain.csv"/>
+    <emission-output value="output/urban_emissions.csv"/>
+</output>
+</configuration>
